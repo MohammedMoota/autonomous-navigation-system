@@ -70,9 +70,9 @@ graph TD
     
     style A fill:#4CAF50,stroke:#333,stroke-width:3px,color:#fff
     style D fill:#2196F3,stroke:#333,stroke-width:2px,color:#fff
-</mermaid>
+```
 
-##  Hardware Components
+## Hardware Components
 
 | Component | Model/Type | Quantity | Purpose |
 |-----------|-----------|----------|---------|
@@ -85,7 +85,7 @@ graph TD
 | Motors | DC Motors | 2 | Left & Right drive |
 | LED Indicators | Standard LEDs | 4 | Motor status (Green/Red) |
 
-##  Pin Configuration
+## Pin Configuration
 
 ### Digital I/O Pins
 
@@ -117,9 +117,10 @@ graph TD
 | GPIO 21 | SDA (Data) |
 | GPIO 22 | SCL (Clock) |
 
-##  Software Requirements
+## Software Requirements
 
 ### Libraries
+
 - `WiFi.h` - ESP32 WiFi connectivity
 - `Wire.h` - I2C communication
 - `LiquidCrystal_I2C.h` - LCD display control
@@ -127,11 +128,12 @@ graph TD
 - `ThingSpeak.h` - Cloud platform integration
 
 ### Development Environment
+
 - Arduino IDE 1.8.x or higher
 - ESP32 Board Support Package
 - Wokwi Simulator (for virtual testing)
 
-##  Installation & Setup
+## Installation & Setup
 
 ### 1. Clone the Repository
 
