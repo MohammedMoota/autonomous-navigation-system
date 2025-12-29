@@ -1,0 +1,62 @@
+# IDE and Build Files
+.vscode/
+.idea/
+*.code-workspace
+*.swp
+*.swo
+*~
+
+# Arduino Build Output
+build/
+*.hex
+*.elf
+*.bin
+*.map
+
+# ESP32 Specific
+.pio/
+.pioenvs/
+.piolibdeps/
+cmake-build-*/
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Backup and Temporary Files
+*.bak
+*.tmp
+*~
+*.log
+
+# API Keys and Secrets (IMPORTANT!)
+secrets.h
+config_local.h
+*_secrets.*
+
+# ThingSpeak Credentials
+# Note: Never commit actual API keys!
+# Replace in sketch.ino with your own credentials
+
+# Python (if using helper scripts)
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+venv/
+env/
+
+# Documentation Build
+docs/_build/
+*.pdf
+
+# Archives
+*.zip
+*.tar.gz
+*.rar
+
+# Test Data
+test_logs/
+*.csv
+serial_output.txt
