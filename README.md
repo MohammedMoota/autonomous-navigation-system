@@ -1,4 +1,4 @@
-# 🤖 Autonomous Navigation & Intelligent Safety Systems
+#  Autonomous Navigation & Intelligent Safety Systems
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Platform](https://img.shields.io/badge/platform-ESP32-blue.svg)](https://www.espressif.com/en/products/socs/esp32)
@@ -219,7 +219,7 @@ The Serial Monitor displays a comprehensive control guide on startup:
 =========================================
 ```
 
-## 🎮 Control Commands
+##  Control Commands
 
 ### Manual Mode Commands
 
@@ -238,7 +238,7 @@ The Serial Monitor displays a comprehensive control guide on startup:
 
 In **Manual Mode**, forward movement is **automatically blocked** when obstacles are detected within 20cm. Only backward movement (`S` or `B`) and mode switching (`1`) are permitted.
 
-## 🌐 IoT Integration
+##  IoT Integration
 
 ### ThingSpeak Data Streaming
 
